@@ -1,0 +1,17 @@
+{
+  "name": "broxel-tapi",
+  "version": "1.0.0",
+  "description": "Tapi",
+  "main": "index.js",
+  "scripts": {
+    "testError": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress open"
+  },
+  "author": "Lucas Casco",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "cypress-sql-server": "^1.0.0",
+    "pg": "^8.11.3"
+  }
+}
